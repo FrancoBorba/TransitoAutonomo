@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.401" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.controllerTela">
+   <children>
+      <ImageView fitHeight="522.0" fitWidth="1742.0" layoutX="-469.0" layoutY="-12.0" pickOnBounds="true">
+         <image>
+            <Image url="@../image/transitoAutonomo1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="redbull" fitHeight="28.0" fitWidth="41.0" layoutX="769.0" layoutY="381.0" pickOnBounds="true" preserveRatio="true" rotate="270.0">
+         <image>
+            <Image url="@../image/RedBullCarro.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="41.0" fitWidth="95.0" layoutX="112.0" layoutY="412.0" onMouseClicked="#aparecerTrajeto2" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/RedBullCarro.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ferrari" fitHeight="23.0" fitWidth="50.0" layoutX="-7.0" layoutY="392.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/ferrariCarro.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="95.0" layoutX="4.0" layoutY="407.0" onMouseClicked="#aparecerTrajeto5" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/ferrariCarro.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="trajeto5" fitHeight="403.0" fitWidth="800.0" layoutX="-1.0" layoutY="5.0" pickOnBounds="true" visible="false">
+         <image>
+            <Image url="@../image/trajeto5.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="trajeto2" fitHeight="403.0" fitWidth="800.0" layoutX="3.0" layoutY="3.0" pickOnBounds="true" visible="false">
+         <image>
+            <Image url="@../image/trajeto2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="63.0" fitWidth="112.0" layoutX="208.0" layoutY="401.0" onMouseClicked="#aparecerTrajeto8" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/mercedesCarro.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="mercedes" fitHeight="31.0" fitWidth="55.0" layoutX="736.0" layoutY="75.0" pickOnBounds="true" preserveRatio="true" rotate="180.0">
+         <image>
+            <Image url="@../image/mercedesCarro.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="trajeto8" fitHeight="182.0" fitWidth="789.0" layoutX="9.0" layoutY="90.0" pickOnBounds="true" visible="false">
+         <image>
+            <Image url="@../image/trajeto8.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="alpine" fitHeight="28.0" fitWidth="41.0" layoutX="740.0" layoutY="249.0" pickOnBounds="true" rotate="180.0">
+         <image>
+            <Image url="@../image/alpineCarro.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="63.0" fitWidth="114.0" layoutX="304.0" layoutY="400.0" onMouseClicked="#aparecerTrajeto10" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/alpineCarro.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="trajeto10" fitHeight="152.0" fitWidth="800.0" layoutX="3.0" layoutY="260.0" pickOnBounds="true" visible="false">
+         <image>
+            <Image url="@../image/trajeto10.png" />
+         </image>
+      </ImageView>
+      <Slider fx:id="mercedesSlider" blockIncrement="1.0" layoutX="217.0" layoutY="452.0" max="5.0" min="1.0" prefHeight="14.0" prefWidth="82.0" value="5.0" />
+      <Slider fx:id="ferrariSlider" blockIncrement="1.0" layoutX="8.0" layoutY="452.0" max="5.0" min="1.0" prefHeight="14.0" prefWidth="82.0" value="5.0" />
+      <Slider fx:id="alpineSlider" blockIncrement="1.0" layoutX="319.0" layoutY="452.0" max="5.0" min="1.0" prefHeight="14.0" prefWidth="82.0" value="5.0" />
+      <Slider fx:id="redBullSlider" blockIncrement="1.0" layoutX="108.0" layoutY="452.0" max="5.0" min="1.0" prefHeight="14.0" prefWidth="82.0" value="5.0" />
+      <ImageView fitHeight="91.0" fitWidth="95.0" layoutX="412.0" layoutY="396.0" onMouseClicked="#aparecerTrajeto18" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/astonMartinCarro.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="astonMartin" fitHeight="31.0" fitWidth="50.0" layoutX="579.0" layoutY="388.0" pickOnBounds="true" preserveRatio="true" rotate="180.0">
+         <image>
+            <Image url="@../image/astonMartinCarro.png" />
+         </image>
+      </ImageView>
+      <Slider fx:id="astonMartinSlider" blockIncrement="1.0" layoutX="419.0" layoutY="452.0" max="5.0" min="1.0" prefHeight="14.0" prefWidth="82.0" value="5.0" />
+      <ImageView fx:id="trajeto18" fitHeight="231.0" fitWidth="495.0" layoutX="308.0" layoutY="176.0" pickOnBounds="true" visible="false">
+         <image>
+            <Image url="@../image/trajeto18.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="41.0" fitWidth="95.0" layoutX="512.0" layoutY="411.0" onMouseClicked="#aparecerTrajeto15" pickOnBounds="true" preserveRatio="true" rotate="180.0">
+         <image>
+            <Image url="@../image/hassCarro.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="hass" fitHeight="23.0" fitWidth="42.0" layoutX="420.0" layoutY="-6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/hassCarro.png" />
+         </image>
+      </ImageView>
+      <Slider fx:id="hassSlider" blockIncrement="1.0" layoutX="518.0" layoutY="452.0" max="5.0" min="1.0" prefHeight="14.0" prefWidth="82.0" value="5.0" />
+      <ImageView fx:id="trajeto15" fitHeight="263.0" fitWidth="476.0" layoutX="-3.0" layoutY="5.0" pickOnBounds="true" rotate="180.0" visible="false">
+         <image>
+            <Image url="@../image/trajeto15.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="56.0" fitWidth="88.0" layoutX="610.0" layoutY="407.0" onMouseClicked="#aparecerTrajeto21" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/mcLarenCarro.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="mclaren" fitHeight="28.0" fitWidth="50.0" layoutX="585.0" layoutY="149.0" pickOnBounds="true" preserveRatio="true" rotate="-90.0">
+         <image>
+            <Image url="@../image/mcLarenCarro.png" />
+         </image>
+      </ImageView>
+      <Slider fx:id="mclarenSlider" blockIncrement="1.0" layoutX="621.0" layoutY="452.0" max="5.0" min="1.0" prefHeight="14.0" prefWidth="82.0" value="5.0" />
+      <ImageView fx:id="trajeto21" fitHeight="403.0" fitWidth="800.0" layoutX="-1.0" layoutY="5.0" pickOnBounds="true" visible="false">
+         <image>
+            <Image url="@../image/trajeto21.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="56.0" fitWidth="105.0" layoutX="699.0" layoutY="403.0" onMouseClicked="#aparecerTrajeto22" pickOnBounds="true" preserveRatio="true" rotate="180.0">
+         <image>
+            <Image url="@../image/willians.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="willians" fitHeight="23.0" fitWidth="41.0" layoutX="467.0" layoutY="322.0" pickOnBounds="true" preserveRatio="true" rotate="180.0">
+         <image>
+            <Image url="@../image/willians.png" />
+         </image>
+      </ImageView>
+      <Slider fx:id="williansSlider" blockIncrement="1.0" layoutX="708.0" layoutY="452.0" max="5.0" min="1.0" prefHeight="14.0" prefWidth="82.0" value="5.0" />
+      <ImageView fx:id="trajeto22" fitHeight="403.0" fitWidth="800.0" layoutX="2.0" layoutY="5.0" pickOnBounds="true" visible="false">
+         <image>
+            <Image url="@../image/trajeto22.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="22.0" fitWidth="25.0" layoutX="37.0" layoutY="470.0" onMouseClicked="#pararFerrari" pickOnBounds="true">
+         <image>
+            <Image url="@../image/play.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="22.0" fitWidth="25.0" layoutX="135.0" layoutY="471.0" onMouseClicked="#pararRedBull" pickOnBounds="true">
+         <image>
+            <Image url="@../image/play.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="22.0" fitWidth="25.0" layoutX="244.0" layoutY="472.0" onMouseClicked="#pararMercedes" pickOnBounds="true">
+         <image>
+            <Image url="@../image/play.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="22.0" fitWidth="25.0" layoutX="348.0" layoutY="471.0" onMouseClicked="#pararAlpine" pickOnBounds="true">
+         <image>
+            <Image url="@../image/play.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="22.0" fitWidth="25.0" layoutX="447.0" layoutY="470.0" onMouseClicked="#pararAston" pickOnBounds="true">
+         <image>
+            <Image url="@../image/play.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="22.0" fitWidth="25.0" layoutX="550.0" layoutY="471.0" onMouseClicked="#pararHass" pickOnBounds="true">
+         <image>
+            <Image url="@../image/play.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="22.0" fitWidth="25.0" layoutX="648.0" layoutY="470.0" onMouseClicked="#pararMcLaren" pickOnBounds="true">
+         <image>
+            <Image url="@../image/play.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="22.0" fitWidth="25.0" layoutX="736.0" layoutY="470.0" onMouseClicked="#pararWillians" pickOnBounds="true">
+         <image>
+            <Image url="@../image/play.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
