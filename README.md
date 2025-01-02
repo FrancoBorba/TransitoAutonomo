@@ -45,7 +45,7 @@ O projeto foi desenvolvido como parte das atividades da disciplina de **Programa
 ## Como Executar
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/FrancoBorba/JantarDosFilosofos.git
+   git clone https://github.com/FrancoBorba/TransitoAutonomo.git
 2. Abra o projeto em sua IDE de preferência.
 3. Compile e execute o código principal para iniciar a simulação.
 
